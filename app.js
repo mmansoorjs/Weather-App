@@ -171,7 +171,7 @@ let userLocation = () => {
                 }
 
                 else if(weather[0].main ==='Clouds'){
-                    imageType.src = 'images/Cloudy.svg'
+                    imageType.src = 'images/cloudy.svg'
     
                 } 
 
