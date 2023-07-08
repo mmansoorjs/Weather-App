@@ -62,7 +62,7 @@ navigator.geolocation.getCurrentPosition(data => {
             }
 
             else if(weather[0].main ==='Clouds'){
-                imageType.src = 'images/Cloudy.svg'
+                imageType.src = 'images/cloudy.svg'
 
             } 
 
@@ -92,7 +92,7 @@ navigator.geolocation.getCurrentPosition(data => {
             else if (weather[0].main === 'Clear') {
                 imageType.src = 'images/clear-day.svg'
             }
-            else if (weather[0].main === 'Thunderstorms') {
+            else if (weather[0].main === 'Thunderstorm') {
                 imageType.src = 'images/thunderstorms.svg'
             }
 
